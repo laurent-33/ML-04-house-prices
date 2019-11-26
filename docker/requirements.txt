@@ -1,0 +1,10 @@
+bigml
+kaggle
+matplotlib
+rise
+jupyter_contrib_nbextensions
+autopep8
+papermill
+qgrid
+ipywidgets
+ipynb
