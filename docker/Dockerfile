@@ -17,12 +17,6 @@ RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
 RUN jupyter nbextension enable --py --sys-prefix qgrid
 RUN jupyter nbextension enable --py widgetsnbextension
 
-# RUN R -e "install.packages('summarytools', repos='http://cran.irsn.fr/')"
-# RUN R -e "install.packages('corrplot', repos='http://cran.irsn.fr/')"
-# RUN R -e "install.packages('PerformanceAnalytics', repos='http://cran.irsn.fr/')"
-# RUN R -e "install.packages('ggplot2', repos='http://cran.irsn.fr/')"
-# RUN R -e "install.packages('FactoMineR', repos='http://cran.irsn.fr/')"
-
 RUN conda install --quiet --yes \
     'r-lattice=0.20*' \
     'r-cluster=2.0*' \

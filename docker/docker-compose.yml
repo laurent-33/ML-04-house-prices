@@ -4,7 +4,7 @@ services:
     build:
       context: .
     container_name: house-prices2
-    image: house-prices2
+    image: jupyter-image-custom
     restart: unless-stopped
     logging:
       driver: json-file
